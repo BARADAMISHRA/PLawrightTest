@@ -12,7 +12,7 @@ await page.pause()
 })
 
 
-test.only("check box operarion2", async({page})=>{
+test("check box operarion2", async({page})=>{
 
     await page.goto("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php")
 
