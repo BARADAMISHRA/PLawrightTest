@@ -17,7 +17,7 @@ export default defineConfig({
  reporter: [
     ['line'],
     ['junit', { outputFile: 'playwright-report/results.xml' }],
-    ['html', { open: 'never' }]
+    ['html', { open: 'never', outputFolder: 'playwright-report' }]
   ],
   timeout:30*1000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
